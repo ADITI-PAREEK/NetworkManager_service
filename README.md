@@ -4,8 +4,10 @@ This Bash script monitors the NetworkManager service on a linux system and resta
 
 ## Usage
 1. Make sure the script is executable : ```bash
+   
                                         chmod +x nt.sh
-2. Run the script: ```bash
+3. Run the script: ```bash
+   
                    ./nt.sh
 The script will continuously check the status of the NetworkManager service and restart it if necessary.
 
